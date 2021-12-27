@@ -1,0 +1,21 @@
+@charset "UTF-8"
+lk{
+
+}
+body{
+    background-image: linear-gradient(to right, blue, transparent);]
+}
+.bola{
+    background-color: rgb(204, 0, 0);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: solid 10px black;
+}
+.bola1{
+    background-color: rgb(204, 0, 0);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: solid 10px black;
+}
