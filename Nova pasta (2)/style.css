@@ -5,11 +5,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
 *{
+   
     margin: auto;
     padding: auto;
-    
-    
+    line-height: 2em;
+       
 }
+p{
+    text-align: justify;
+}
+
+body{
+    background-image: url(imagens/thumb2-purple-neon-lights-black-background-purple-neon-light-neon-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .img2{
     margin-left: 350px;
     align-items: center;
@@ -21,36 +33,35 @@ div > h1{
 .header-menu{
     color: white;
     height: 100px;
-    background-color: #050404;
+    background-color: #040120;
     display: flex;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.514);
+    border-bottom: 2px solid white;
+    position: sticky;
+    top: 0px;
     
 }
-nav ul{
+.header-menu ul{
     display: flex;
     gap: 40px;
     list-style: none;
     font-family: 'Moon Dance','Yuji Hentaigana Akebono','Arial', 'Helvetica', 'sans-serif';
     font-size: 1.8em;
+    
 }
-body{
-background-color: rgb(255, 255, 255);
-}
+
 ul a{
     text-decoration: none;
     color: white;
 }
 main{
-    background-color: black;
+   
+    background-color: rgb(14, 14, 51);
     margin: auto;
-    width: 1000px;
+    width: 1300px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.356);  
 }
-main img{
-    margin: 15px;
-    padding: auto;
-    gap: 50px;
-}
+
 main h1{
     font-family: 'Moon Dance',Arial, Helvetica, sans-serif;
     font-size: 2.8em;
@@ -58,9 +69,9 @@ main h1{
     color: white;
 }
 article{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(14, 14, 51);
     margin: auto;
-    width: 1000px;
+    width: 1300px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.356);
     border-radius: 0px 0px 10px 10px;
 }
@@ -79,6 +90,34 @@ article ul{
     line-height: 40px;
     text-align: center;
 }
+#img{
+    
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 400px;
+    border: 4px solid white;
+    bottom: 105px;
+}
+#img1{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 1100px;
+    border: 4px solid white;
+    bottom: 105px;
+}
+#img2{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    bottom: 110px;
+    border-radius: 50%;
+    left: 750px;
+    border: 4px solid white;
+    bottom: 105px;
+}
+
 p{
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
@@ -88,16 +127,104 @@ p{
     width: 800px;
     line-height: 30px;
 }
-a:after {
+ nav a:after {
     content: "";
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     display: flex;
     height: 2px;
     width: 0px;
-    margin-top: 4px;
     transition: 0.3s;
 
 }
-a:hover::after{
+nav a:hover::after{
         width: 100%;
     }
+.nav1{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    left: 400px;
+    border: 4px solid white;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    width: 1300px;
+    
+    
+}
+footer p{
+    color: black;
+    text-align: center;
+    font-family: 'Moon Dance' 'Arial',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+a:after{
+    text-decoration: underline;
+}
+.teste{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 1057px;
+    left: 753px;
+    border-bottom: 4px solid black;
+    
+    
+    
+}
+.teste h1{
+    color: black;
+    font-weight: bold;
+}
+.teste h2{
+    font-size: 1em;
+    text-align: justify;
+    padding: 20px;
+    line-height: 20px;
+}
+.teste img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 120px;
+    bottom: 10px;
+    
+}
+.teste1{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 1685px;
+    left: 753px;
+    
+}
+.teste1 h1{
+    color: black;
+    font-weight: bold;
+}
+.teste1 h2{
+    font-size: 1em;
+    text-align: justify;
+    padding: 20px;
+    line-height: 20px;
+}
+.ola{
+    position: -webkit-sticky;
+    bottom: -530px;
+    left: -300px;
+
+.teste1 img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 120px;
+    bottom: 10px;
+

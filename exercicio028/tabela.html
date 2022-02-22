@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 002</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        table{
+            width: 300px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        thead tr th{
+            background-color: rgb(68, 68, 68);;
+            top: -1px;
+            position: sticky;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 7px;
+            
+        }
+        thead, tfoot{
+            background-color: rgb(68, 68, 68);
+            color: white;
+        }
+        tbody tr:nth-child(even){
+            background-color: lightgray;
+
+        }
+        .num{
+            text-align: end;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+            border:  1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">123 232 123</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 321 321</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>148 287 212</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus natus placeat esse recusandae numquam, necessitatibus quod. Dicta placeat nulla officia labore fugiat itaque neque obcaecati impedit iste eos, quia necessitatibus!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas totam fugit neque accusamus repellat minus non odio. Sapiente, ad. Soluta excepturi provident ratione. Nobis quo nostrum ab dolorem fugit amet. Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum excepturi at, libero labore ab perferendis cupiditate et quos laboriosam. Quidem quam debitis labore illo inventore nulla quo deleniti magni earum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et dolor eius autem harum a sit perspiciatis ad tempore animi, iste molestiae consequuntur, voluptatibus suscipit unde tempora eum illum sed dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repellendus deserunt, tempora minus iure nemo nam dolorum expedita ab possimus? Delectus provident eius accusamus sapiente vitae id corporis, et minima.</p>
+</body>
+</html>
